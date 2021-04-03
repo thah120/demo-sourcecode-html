@@ -1,0 +1,153 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+/* responsive hiển thị kích thước tương thích với trình duyệt*/
+@media screen and (max-width: 1025px) {
+	body{
+		width: 1100px;
+	}
+}
+.top-title{
+	height: 30px;
+	width: 100%;
+	background-color: #3B9E3E;
+}
+.marquee{
+	line-height:30px;
+	width:100%;
+}
+.banner{
+	height: 120px;
+	width:100%;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+/* class: logo xác định thuộc tính cho ảnh logo và khung tìm kiếm */
+.logo{
+	width: 1000px;
+	margin:0 auto;
+}
+.logo img{
+	height: 150px;
+}
+/* hiệu ứng cho khung search */
+.search-box{
+	line-height: 47px;
+	float: right; /*khung search dồn về bên phải*/
+}
+input{ /*reset cho input*/
+	background: none;
+  	outline: none;
+  	border: none;
+  	padding: 0;
+  	margin: 0;
+  	width: 0px;
+}
+.search-box input[type=search]{
+	border:  1px solid #DEDEDE;
+	border-radius: 40px;
+	height: 30px;
+	width: 120px;
+	transition: 0.8s ease-in-out ;
+	padding: 10px;
+}
+.search-box:hover input{ /*hiệu ứng input*/
+	margin: 0px 20px;
+	width: 200px;
+	transition: 0.8s ease-in-out;
+}
+/*--------------------------------------*/
+.main-menu{
+	height: 47px;
+	width: 100%;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	background-color:;
+	margin-bottom: 8px;
+	font-family: 'Lobster', cursive;
+}
+.list-menu{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.list-menu ul{
+	list-style: none;
+}
+.list-menu ul li{
+	float: left;
+	line-height: 47px;
+	padding: 0 15px;
+}
+.list-menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	display:block;
+}
+.list-menu ul:hover li{
+	opacity: 0.3;
+}
+.list-menu ul li:hover {
+	transform: scale(1.0);
+    z-index: 10;
+    background: ;
+    color: #fff;
+    opacity: 1;
+    border-bottom: 3px solid #3B9E3E;
+}
+.main{
+	width: 1100px;
+	/*margin: 0 22%;*/
+	margin-bottom: 8px;
+	margin: 0 auto;
+	clear: left;
+}
+.content{
+	width: 700px;
+	background-color:;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.title{
+	border-bottom: 5px solid #EBEBEB; 
+}
+.title h3{
+	display: inline-block;
+	margin: 10px 10px;
+}
+.extra-menu{
+	width: 335px;
+	background-color: blue;
+	min-height:400px;
+	float: left;
+}
+.footer{
+	margin-top: 15px;
+	clear: left;
+	width: 100%;
+	height: 20%;
+	background-color: #8F9EA1;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+.footer-content{
+	margin: 20px;
+}
+.footer p{
+	padding: 5px 0px;
+	font-size: 20px;
+	color: #32373C;
+}
+.footer a{
+	text-decoration: none;
+	color:#010101;
+}
+.link:hover{
+	text-decoration: underline;
+	color:#ffffff;
+}
